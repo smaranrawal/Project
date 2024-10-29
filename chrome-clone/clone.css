@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    border: border-box;
+}
+body{
+    /* background-color: rgb(238, 200, 153); */
+    background-image: url("background2.avif");
+    background-size: cover;
+}
+
+.top {
+    height: 80px;
+    width: 100%;
+    /* background-color: aliceblue;  */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 22px;
+   
+    
+    
+    
+    
+}
+.gmail a{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 700;
+   
+}
+.gmail a:hover{
+    text-decoration: underline;
+}
+.images a{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 700;
+    
+
+}
+.images a:hover{
+    text-decoration: underline;
+}
+
+.bar a{
+    font-size: 20px;
+    color: black;
+}
+
+.account a{
+    font-size: 20px;
+    color: black;
+}
+.account-logo{
+    background-image: url("accountlogo.png");
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    border-radius: 15px;
+    margin-right: 10px;
+
+}
+    
+
+/* -----content---- */
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.logo p{
+    font-size: 110px;
+    font-weight: 800;
+    text-decoration-style:dashed ;
+   
+    
+}
+.search-content{
+    height: 70px;
+    width: 100%;
+   /* background-color: aliceblue; */
+   display: flex;
+  align-items: center; 
+  justify-content: center;
+  margin-top: 35px;
+  
+  
+   
+   
+}
+.outer-search{
+    height:50px ;
+    width: 60%;
+    /* background-color: aquamarine; */
+    
+
+}
+
+.search-bar{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2);
+}
+.search-bar:hover{
+    border: 2px solid  rgb(234, 174, 9);
+}
+.search{
+    font-size: 18px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    
+}
+
+.placeholder{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 650px;
+    font-size: 20px;
+    
+}
+.mic{
+    width: 30px;
+    font-size: 17px;
+    
+   
+}
+.camera{
+    width: 35px;
+    font-size: 17px;
+}
+
+
+
+
+.container{
+    height: 120px;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+    }
+    
+    .box{
+        height: 112px;
+        width: 112px;
+        transition: transform 0.3s;
+        
+        /* background-color: pink; */
+    }
+    .box:hover{
+        transform: scale(1.0); /* Zoom on hover */
+        background-color: rgba(223, 221, 221, 0.8);
+    }
+    .img {
+        height: 112px;
+        width: 112px;
+       
+        /* background-color: pink; */
+       
+    }
+    .img a img{
+        height: 60px;
+        width: 60px;
+         background-size: cover; 
+        background-position: center;
+        border-radius: 90px;
+        margin: 10px 15px 15px 22px;
+        
+    
+    }
+    p{
+        text-align: center;
+        
+    }
+    
